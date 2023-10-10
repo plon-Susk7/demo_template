@@ -41,27 +41,4 @@ body:
       description: If applicable, add screenshots to help explain your problem.
     validations:
       required: false
-  - type: input
-    id: desktop
-    attributes:
-      label: Desktop
-      description: Please complete the following information:
-      placeholder: "OS: [e.g. iOS] \nBrowser [e.g. chrome, safari] \nVersion [e.g. 22]"
-    validations:
-      required: false
-  -type: input
-    id: smartphone
-    attributes:
-      label: Smartphone
-      description: Please complete the following information:
-      placeholder: "Device: [e.g. iPhone6] \nOS: [e.g. iOS8.1] \nBrowser [e.g. stock browser, safari] \nVersion [e.g. 22]"
-    validations:
-      required: false
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+
