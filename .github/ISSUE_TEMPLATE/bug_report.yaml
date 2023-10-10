@@ -52,14 +52,14 @@ body:
       placeholder: OS: [e.g. iOS] , Browser [e.g. chrome, safari] , Version [e.g. 22]
     validations:
       required: false
-   - type: input
-      id: smartphone
-      attributes:
-        label: Smartphone
-        description: Please complete the following information
-        placeholder: OS: [e.g. iOS] , Browser [e.g. chrome, safari] , Version [e.g. 22]
-      validations:
-        required: false
+  - type: input
+    id: smartphone
+    attributes:
+      label: Smartphone
+      description: Please complete the following information
+      placeholder: OS: [e.g. iOS] , Browser [e.g. chrome, safari] , Version [e.g. 22]
+    validations:
+      required: false
   - type: checkboxes
     id: terms
     attributes:
