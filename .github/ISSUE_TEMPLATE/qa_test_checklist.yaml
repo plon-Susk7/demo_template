@@ -1,6 +1,6 @@
 name: QA Test Checklist
 description: Use this as a guide for manual QA
-title: ["QA"]
+title: "[QA]"
 labels: ["qa"]
 projects: ["tattle-made/uli"]
 assignees:
