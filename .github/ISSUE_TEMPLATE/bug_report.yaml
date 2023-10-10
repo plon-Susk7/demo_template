@@ -34,16 +34,13 @@ body:
       placeholder: "I expected..."
     validations:
       required: true
-  - type: dropdown
-    id: browsers
+  - type: image
+    id: screenshots
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+    validations:
+    required: false
   - type: textarea
     id: logs
     attributes:
