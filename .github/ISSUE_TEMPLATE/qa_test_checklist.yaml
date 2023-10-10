@@ -24,8 +24,10 @@ body:
     id: features
     attributes:
       label: Features to check
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
       options:
-        - label: I agree to follow this project's Code of Conduct
-        - label: I love big gals
+        - label: Users are able to archive a tweet on their device
+        - label: Users are able to send an archived tweet to their email
+        - label: Users are able to hide tweets with OGBV on their feed
+        - label: Users are able to update their Preference 
+        - label: Uli is able to hide slurs on user's feed
           required: true
