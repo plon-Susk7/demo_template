@@ -33,6 +33,7 @@ body:
       label: Expected behavior
       description: A clear and concise description of what you expected to happen.
       placeholder: "I expected..."
+      value: ""
     validations:
       required: true
   - type: dropdown
