@@ -40,7 +40,6 @@ body:
         Thanks for taking the time to fill out this bug report!
 
         ![Attach Screenshot](https://example.com/path-to-upload-screenshot)
-
   - type: dropdown
     id: browsers
     attributes:
