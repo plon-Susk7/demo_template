@@ -34,7 +34,7 @@ body:
       placeholder: "I expected..."
     validations:
       required: true
-  - type: image
+  - type: images
     id: screenshots
     attributes:
       label: Screenshots
