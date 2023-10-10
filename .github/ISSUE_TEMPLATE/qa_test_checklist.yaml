@@ -19,7 +19,8 @@ body:
         - Firefox
         - Chrome
         - Brave
-
+        - Microsoft Edge
+        - Other
   - type: checkboxes
     id: features
     attributes:
