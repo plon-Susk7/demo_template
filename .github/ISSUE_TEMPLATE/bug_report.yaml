@@ -23,7 +23,7 @@ body:
     attributes:
       label: Steps to reproduce
       description: Steps to reproduce the behavior
-      placeholder: 1. Go to '...' \n2. Click on '....' \n3. Scroll down to '....' \n4. See error
+      placeholder: "1. Go to '...' \n2. Click on '....' \n3. Scroll down to '....' \n4. See error"
     validations:
       required: true
   - type: input
