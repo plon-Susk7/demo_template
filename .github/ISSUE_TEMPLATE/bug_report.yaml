@@ -44,12 +44,22 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
-    id: logs
+  - type: input
+    id: desktop
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: Desktop
+      description: Please complete the following information
+      placeholder: OS: [e.g. iOS] | Browser [e.g. chrome, safari] | Version [e.g. 22]
+    validations:
+      required: false
+   - type: input
+      id: smartphone
+      attributes:
+        label: Smartphone
+        description: Please complete the following information
+        placeholder: OS: [e.g. iOS] | Browser [e.g. chrome, safari] | Version [e.g. 22]
+      validations:
+        required: false
   - type: checkboxes
     id: terms
     attributes:
