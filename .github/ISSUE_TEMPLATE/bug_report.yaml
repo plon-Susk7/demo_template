@@ -34,13 +34,13 @@ body:
       placeholder: I expected...
     validations:
       required: true
-  - type: image
-    id: screenshot
+  - type: markdown
     attributes:
-      label: Attach a screenshot (optional)
-      description: You can attach a screenshot to help us better understand the issue.
-    validations:
-      required: false
+      value: |
+        Thanks for taking the time to fill out this bug report!
+
+        ![Attach Screenshot](https://example.com/path-to-upload-screenshot)
+
   - type: dropdown
     id: browsers
     attributes:
