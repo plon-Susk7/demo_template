@@ -52,7 +52,7 @@ body:
         - Safari
         - Microsoft Edge
         - Other
-  - type:
+  - type: dropdown
     id: os
     attributes:
       label: Which operating system are you on?
